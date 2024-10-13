@@ -248,6 +248,10 @@ public class Menu {
                 
                 MemoryDataHandler.addPlayer(plr);
                 
+                System.out.println(" [!] Jugador modificado correctamente!");
+                try {Thread.sleep(2000);} catch(InterruptedException e) {System.exit(0);}
+                mainMenu();
+                
             } else {
                 showError("No se ha encontrado el jugador con esa id");
                 mainMenu();
