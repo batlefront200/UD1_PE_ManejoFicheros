@@ -217,7 +217,6 @@ public class Menu {
         
         try { 
             int id = safeIntGet();
-            ss.nextLine(); // Se limpia el scanner despues de obtener un entero
             Jugador plr = MemoryDataHandler.obtainPlayerById(id);
             
             if(plr != null) {
