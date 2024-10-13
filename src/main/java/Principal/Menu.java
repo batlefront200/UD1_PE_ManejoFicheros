@@ -209,7 +209,7 @@ public class Menu {
     }
     
     /***
-     * Menú que ayuda al usuario a modificar los jugadores, si no se introduce ningún dato en algún campo, no se modificará el mismo
+     * Menú que ayuda al usuario a modificar los jugadores
      */
     public static void modificarJugador() {
         Scanner ss = new Scanner(System.in);
@@ -225,7 +225,6 @@ public class Menu {
                 
                 // El jugador existe
                 System.out.println(" [?] Introduce los nuevos datos de "+plr.getNick()+" con Id "+plr.getId());
-                System.out.println(" [!] Si no desea modificar algun dato introduzca un - y no se modificará");
                 
                 System.out.print("\n\n [ID]: ");
                 int newid = safeIntGet();
