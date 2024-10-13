@@ -280,6 +280,8 @@ public class Menu {
                 System.out.printf("\n %-5s %-15s %-12s %-10s %-12s\n", "[ID]", "[Nombre]", "[Nivel_Vida]", "[Monedas]", "[Experiencia]");
                 System.out.printf("  %-5d %-15s %-12d %-10d %-12d\n", plr.getId(),  plr.getNick(),  plr.getLife_level(),  plr.getCoins(), plr.getExperience());
 
+                System.out.println("\n [!] Presiona enter para volver al menu\n");
+                
                 ss.nextLine();
                 mainMenu();
             } else {
